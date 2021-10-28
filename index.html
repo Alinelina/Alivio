@@ -8,8 +8,8 @@
     <title>Alivio</title>
     <link rel="stylesheet" href="assets/styles/normalize.css">
     <style>
-        .header {
-            background-color: yellow;
+        .title_menu {
+            background-color: white;
         }
 
         .menu {
@@ -47,39 +47,179 @@
             padding: 13px, 50px, 13px, 50px;
             border-radius: 4px;
         }
+
         .botton .menu {
             color: white;
+        }
+
+        .botton .menu:hover {
+            text-decoration: none;
+        }
+
+        .title {
+            background-image: url(assets/images/title_background.png);
+            width: 100vw;
+
+        }
+
+        .text {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 31px;
+
+            color: #484848;
+        }
+
+
+        /*.header {
+            background: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+        }*/
+        main {
+            background-color: turquoise;
+        }
+
+        main .section {
+            background-color: tomato;
+        }
+
+        .story {
+            background-color: #245852;
+;
+        }
+
+        .about_us {
+            background-color: green;
+        }
+
+        .footer {
+            background-color: #245852;
+;
+        }
+
+        h1 {
+            font-family: Georgia;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 65px;
+            line-height: 74px;
+            color: #01996D;
+        }
+        .customized {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: black;
+        }
+        .girl {
+            background-color: #01996D33;
         }
     </style>
 </head>
 
 <body>
     <header class="header">
-        <span class="logo">
-            <a href="#" id="logo">
-                <img src="assets/images/Logo.png" alt="Alivio logo">
-            </a>
-        </span>
+        <div class="title_menu">
+            <span class="logo">
+                <a href="#" id="logo">
+                    <img src="assets/images/Logo.png" alt="Alivio logo">
+                </a>
+            </span>
+            <nav class="nav">
+                <a class="menu" href="#">Why Alivio</a>
+                <a class="menu" href="#">Solutions</a>
+                <a class="menu" href="#">Community</a>
+                <a class="menu" href="#">Pricing</a>
+            </nav>
+            <div class="account">
+                <a class="menu" href="#">Sign in</a>
+                <botton class="botton">
+                    <a class="menu" href="#">Start Trial</a>
+                </botton>
+            </div>
+        </div>
+        <div class="title">
+            <h1>Be aware,<br />
+                Manage well.</h1>
+            <p class="text">Everyone experiences stress in different ways.Let Alivio guide you, in a personalized
+                journal experience,
+                to overcome your stress.</p>
+            <botton class="botton">
+                <a class="menu" href="#">Find Your Way</a>
+            </botton>
+        </div>
+    </header>
+    <main>
+
+        <p>How it works</p>
+        <h2>Understand & Release the stress in 3 steps</h2>
+        <p>Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+        <section class="section">
+            <div>01</div>
+            <h3>Personalize</h3>
+            <p>Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+            <img src="" alt="">
+        </section>
+        <section class="section">
+            <div>02</div>
+            <h3>Write & Understand</h3>
+            <p>Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+            <img src="" alt="">
+        </section>
+        <section class="section">
+            <div>03</div>
+            <h3>Alivio!</h3>
+            <p>Now you are aware, and have a way to manage and overcome your own stress.<br />
+            What are you waiting for? Alivio today!</p>
+            <img src="" alt="">
+        </section>
+    </main>
+    <article class="story">
+        <h2>Let's hear about Kayla's success story</h2>
+        <p>See how well Alivio works in a real customer’s life. </p>
+        <botton class="botton">
+            <a class="menu" href="#">Let’s get started</a>
+        </botton>
+        <div>
+            <video src="#" poster="assets/images/poster.png"></video>
+        </div>
+    </article>
+    <article class="about_us">
+        <div class="girl">
+            <img src="assets/images/girl.png" alt="girl">
+        </div>
+        <div class="card">
+            <span class="customized">Customized For</span>
+            <figure>
+                <img src="assets/images/girl_card.png" alt="">
+                <figcaption>Mikayla</figcaption>
+            </figure>
+            <span>Your custom contents</span>
+            <ul>
+                <li>Understand Your Stress</li>
+                <li>Anger Management</li>
+            </ul>
+        </div>
+        <p>Our product</p>
+        <h2>You tell us your stress,<br />
+            We make your diary</h2>
+        <p>Everyone experiences it, and in different ways.<br />
+            Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+        <botton class="botton">
+            <a class="menu" href="#">Find Your Way</a>
+        </botton>
+        
+    </article>
+    <footer class="footer">
+        <span>Alivio</span>
         <nav class="nav">
             <a class="menu" href="#">Why Alivio</a>
             <a class="menu" href="#">Solutions</a>
             <a class="menu" href="#">Community</a>
             <a class="menu" href="#">Pricing</a>
         </nav>
-        <div class="account">
-            <botton>
-                <a class="menu" href="#">Sign in</a>
-            </botton>
-            <botton class="botton">
-                <a class="menu" href="#">Start Trial</a>
-            </botton>
-        </div>
-        <div class="">
-            <h1></h1>
-            <p></p>
-            <botton></botton>
-        </div>
-    </header>
+    </footer>
 </body>
 
 </html>
