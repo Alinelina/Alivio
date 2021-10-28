@@ -1,0 +1,109 @@
+.title_menu {
+    background-color: white;
+}
+
+.menu {
+    color: #292929;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 3.75%;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+.botton {
+    color: white;
+    background-color: #01996D;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-radius: 4px;
+    padding: 13px, 50px, 13px, 50px;
+    border-radius: 4px;
+}
+
+.botton .menu {
+    color: white;
+}
+
+.botton .menu:hover {
+    text-decoration: none;
+}
+
+.title {
+    background-image: url(assets/images/title_background.png);
+    width: 100vw;
+
+}
+
+.text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #484848;
+}
+
+
+/*.header {
+    background: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+}*/
+main {
+    background-color: turquoise;
+}
+
+main .section {
+    background-color: tomato;
+}
+
+.story {
+    background-color: #245852;
+    ;
+}
+
+.about_us {
+    background-color: green;
+}
+
+.footer {
+    background-color: #245852;
+    ;
+}
+
+h1 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+}
+
+.customized {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: black;
+}
+
+.girl {
+    background-color: #01996D33;
+}
