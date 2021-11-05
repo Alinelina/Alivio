@@ -1,5 +1,17 @@
+@font-face {
+    font-family: "Engine";
+    /*font-style: normal;
+    font-weight: 400;*/
+    src: local("Avenir"),
+        local("Avenir-Regular"),
+        url("/assets/fonts/avenir_roman.otf") format("otf");
+}
+
+
+
 .title_menu {
     background-color: white;
+
 }
 
 .menu {
@@ -235,6 +247,22 @@ h3 {
 }
 
 .footer {
-    background-color: #245852;
-    ;
+    background: #245852;
+    border: 2px solid black;
+}
+
+.footer .nav .menu {
+    color: #FFFFFF;
+    width: 100vw;
+}
+
+.footer #alivio_logo {
+    color: #FFF;
+    font-family: "Avenir";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
 }
