@@ -48,7 +48,7 @@
 }
 
 .title {
-    top: 84px;
+
     height: 70vh;
     background-image: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%, rgba(0, 0, 0, 0.1)), url(/assets/images/title_background.png);
     background-size: cover;
@@ -64,7 +64,7 @@
 }
 
 h1 {
-    font-family: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 65px;
@@ -105,6 +105,7 @@ h2 {
 
 }
 
+
 p {
     font-family: "Lato", sans-serif;
     font-style: normal;
@@ -136,6 +137,26 @@ p {
     border-radius: 12px;
 }
 
+.story h2 {
+    color: white;
+}
+
+.story p {
+    color: #FFF;
+}
+
+.video_container {
+    position: relative;
+    width: 50%;
+}
+
+.video {
+
+    width: 50vw;
+    border-radius: 16.3326px;
+
+}
+
 main .section {
     background-color: #E5E5E5;
 }
@@ -146,22 +167,74 @@ main .section {
 }
 
 .about_us {
-    background-color: green;
+    background-color: #E5E5E5;
+}
+
+.girl {
+    height: 573.2598266601562px;
+    width: 638.6902465820312px;
+    border-radius: 18px;
+    background-color: #01996D33;
+}
+
+.girl_img {
+    height: 641.0523071289062px;
+    width: auto;
+    border-radius: 18px;
+}
+
+.card {
+    height: 293.901123046875px;
+    width: 296.13897705078125px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
+    margin: 10vh;
+}
+
+.customized {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-bottom: 0.745942px solid #000000;
+    padding: 0 0 10px;
+}
+
+h3 {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+
+.card h3 {
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.card_text {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.6195px;
+    line-height: 157%;
+    color: #000000;
+
 }
 
 .footer {
     background-color: #245852;
     ;
-}
-
-
-.customized {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: black;
-}
-
-.girl {
-    background-color: #01996D33;
 }
