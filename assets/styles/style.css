@@ -12,18 +12,18 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 3.75%;
+    padding: 3%;
 }
 
 .menu:hover {
     text-decoration: underline;
 }
 
-.botton .menu {
+.button .menu {
     color: white;
 }
 
-.botton .menu:hover {
+.button .menu:hover {
     text-decoration: none;
 }
 
@@ -31,7 +31,8 @@
     padding: 3%;
 }
 
-.botton {
+.button {
+    padding: 13px 50px;
     font-family: Lato;
     font-size: 20px;
     font-style: normal;
@@ -48,7 +49,7 @@
 
 .title {
     top: 84px;
-    height: 80vh;
+    height: 70vh;
     background-image: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%, rgba(0, 0, 0, 0.1)), url(/assets/images/title_background.png);
     background-size: cover;
 }
@@ -81,11 +82,62 @@ h1 {
 
 .container {
     background-color: #E5E5E5;
+    background-size: cover;
+    margin: 0;
 }
 
+.before_h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+
+.number {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 150%;
+    /*text-align: center;*/
+    color: rgba(1, 153, 109, 0.2);
+}
+
+#laptop {
+    border-radius: 12px;
+}
+
+#picture_in_laptop {
+    border-top-left-radius: 12px;
+}
+
+.section_image {
+    border-radius: 12px;
+}
 
 main .section {
-    background-color: tomato;
+    background-color: #E5E5E5;
 }
 
 .story {
