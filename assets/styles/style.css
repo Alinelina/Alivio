@@ -192,6 +192,11 @@ main .section {
     border-bottom: 0.745942px solid #000000;
 }
 
+.card_text::marker {
+    color: #01996D;
+    font-size: 1em;
+}
+
 .h3 {
     font-size: 30px;
     line-height: 150%;
