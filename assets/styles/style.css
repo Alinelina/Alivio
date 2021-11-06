@@ -5,36 +5,57 @@
         url("/assets/fonts/avenir_roman.otf") format("otf");
 }
 
-
-
-.title_menu {
-    background-color: white;
-}
-
 .menu,
 .button,
 .text,
 .before_h2,
-p,
 .customized,
 .card_text {
     font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+h1,
+h2,
+.h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.header {
+    width: 100vw;
+    height: 85px;
+    background-color: #FFF;
 }
 
 .menu {
-    color: #292929;
-    text-decoration: none;
+    padding: 3%;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 3%;
+    color: #292929;
+    text-decoration: none;
 }
 
 .menu:hover {
     text-decoration: underline;
+}
+
+.button {
+    box-sizing: border-box;
+    padding: 13px 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    background-color: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
 }
 
 .button .menu {
@@ -46,88 +67,46 @@ p,
 }
 
 .account {
-    padding: 3%;
-}
-
-.button {
-    padding: 13px 50px;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-    color: white;
-    background-color: #01996D;
-    line-height: 25px;
-    letter-spacing: 0px;
-    border: 1px solid #01996D;
-    box-sizing: border-box;
-    border-radius: 4px;
+    padding: 2.5%;
+    margin: 0.5%;
 }
 
 .title {
-
     height: 70vh;
     background-image: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%, rgba(0, 0, 0, 0.1)), url(/assets/images/title_background.png);
     background-size: cover;
 }
 
 .text {
-    font-style: normal;
     font-weight: normal;
-    font-size: 20px;
     line-height: 31px;
+    font-size: 20px;
     color: #484848;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: bold;
     font-size: 65px;
     line-height: 74px;
     color: #01996D;
 }
 
-.header {
-    /*position: fixed;*/
-    width: 100%;
-    height: 85px;
-    background-color: #E5E5E5;
-
-}
-
 .container {
+    margin: 0;
     background-color: #E5E5E5;
     background-size: cover;
-    margin: 0;
 }
 
-.before_h2 {
-    font-style: normal;
+.text600 {
     font-weight: 600;
-    font-size: 24px;
-    line-height: 157%;
+    font-size: 25px;
+    line-height: 38px;
     color: #424242;
 }
 
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: bold;
     font-size: 50px;
     line-height: 157%;
     color: #01996D;
-
-}
-
-
-p {
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 150%;
-    color: #424242;
 }
 
 .number {
@@ -136,7 +115,6 @@ p {
     font-weight: normal;
     font-size: 150px;
     line-height: 150%;
-    /*text-align: center;*/
     color: rgba(1, 153, 109, 0.2);
 }
 
@@ -166,10 +144,8 @@ p {
 }
 
 .video {
-
     width: 50vw;
     border-radius: 16.3326px;
-
 }
 
 main .section {
@@ -199,35 +175,31 @@ main .section {
 }
 
 .card {
+    margin: 10vh;
     height: 293.901123046875px;
     width: 296.13897705078125px;
     border-radius: 3px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
-    margin: 10vh;
 }
 
 .customized {
+    padding: 0 0 10px;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0em;
     text-align: center;
     border-bottom: 0.745942px solid #000000;
-    padding: 0 0 10px;
 }
 
-h3 {
-    font-family: Georgia;
-    font-style: normal;
-    font-weight: bold;
+.h3 {
     font-size: 30px;
     line-height: 150%;
     text-align: center;
     color: #000000;
 }
 
-.card h3 {
+.card .h3 {
     font-family: Georgia;
     font-size: 16px;
     font-style: normal;
@@ -239,26 +211,22 @@ h3 {
 }
 
 .card_text {
-    font-style: normal;
     font-weight: normal;
     font-size: 10.6195px;
     line-height: 157%;
     color: #000000;
-
 }
 
 .footer {
     background: #245852;
-    border: 2px solid black;
 }
 
 .footer .nav .menu {
-    color: #FFFFFF;
     width: 100vw;
+    color: #FFFFFF;
 }
 
 .footer #alivio_logo {
-    color: #FFF;
     font-family: "Avenir";
     font-size: 40px;
     font-style: normal;
@@ -266,4 +234,5 @@ h3 {
     line-height: 55px;
     letter-spacing: 0em;
     text-align: left;
+    color: #FFF;
 }
