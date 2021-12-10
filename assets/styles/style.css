@@ -5,6 +5,11 @@
         url("/assets/fonts/avenir_roman.otf") format("otf");
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 .menu,
 .button,
 .text,
@@ -24,9 +29,17 @@ h2,
 }
 
 .header {
+    display: grid;
+    grid-template-columns: 14.3% 4.17% repeat(7, 1fr) 14.3%;
+    grid-template-rows: 1.7%;
     width: 100vw;
     height: 85px;
     background-color: #FFF;
+}
+
+#logo {
+    width: 4.17%;
+    grid-area: 1/2/2/3;
 }
 
 .menu {
